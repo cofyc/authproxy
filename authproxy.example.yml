@@ -1,0 +1,11 @@
+global:
+  production: true
+  cookie_secret: "UNIQUE_COOKEE_SECRET"
+  cookie_max_age: 604800
+proxies:
+  - listen: '0.0.0.0:9500'
+    basic_auths:
+      testuser: testpass
+    cas_server_url: "https://cas.example.org:9443"
+    backends:
+      - 'http://127.0.0.1:1718'

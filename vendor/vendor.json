@@ -33,6 +33,12 @@
 			"revisionTime": "2015-09-25T10:14:45Z"
 		},
 		{
+			"checksumSHA1": "HmbftipkadrLlCfzzVQ+iFHbl6g=",
+			"path": "github.com/golang/glog",
+			"revision": "23def4e6c14b4da8ac2ed8007337bc5eb5007998",
+			"revisionTime": "2016-01-25T20:49:56Z"
+		},
+		{
 			"checksumSHA1": "g/V4qrXjUGG9B+e3hB+4NAYJ5Gs=",
 			"path": "github.com/gorilla/context",
 			"revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
@@ -51,6 +57,24 @@
 			"revisionTime": "2016-08-26T13:13:12Z"
 		},
 		{
+			"checksumSHA1": "5UIsDy9TvCUFTdgOw/GjVmANsd4=",
+			"path": "github.com/lucasuyezu/golang-cas-client/client",
+			"revision": "546569006c117b2f553f5a7ec0b4fe41f3dddc05",
+			"revisionTime": "2015-05-07T03:46:59Z"
+		},
+		{
+			"checksumSHA1": "YSljOxSebsxXvw79wJqDK6Jh7cE=",
+			"path": "github.com/lucasuyezu/golang-cas-client/service",
+			"revision": "546569006c117b2f553f5a7ec0b4fe41f3dddc05",
+			"revisionTime": "2015-05-07T03:46:59Z"
+		},
+		{
+			"checksumSHA1": "zYkOiGtVtGAo4pARcXOc0lj3keY=",
+			"path": "github.com/lucasuyezu/golang-cas-client/util",
+			"revision": "546569006c117b2f553f5a7ec0b4fe41f3dddc05",
+			"revisionTime": "2015-05-07T03:46:59Z"
+		},
+		{
 			"checksumSHA1": "+OgOXBoiQ+X+C2dsAeiOHwBIEH0=",
 			"path": "gopkg.in/yaml.v2",
 			"revision": "a83829b6f1293c91addabc89d0571c246397bbf4",
@@ -63,5 +87,5 @@
 			"revisionTime": "2015-07-21T03:42:11Z"
 		}
 	],
-	"rootPath": "github.com/cofyc/casproxy"
+	"rootPath": "github.com/cofyc/authproxy"
 }
