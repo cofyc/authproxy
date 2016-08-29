@@ -175,17 +175,24 @@ func ProxyAuth(cfg config.ProxyConfig) gin.HandlerFunc {
 	return func(c *gin.Context) {
 		w := c.Writer
 		r := c.Request
+		// check user logined or not
 		session := sessions.Default(c)
 		user := session.Get("user")
 		log.Infof("user: %#v", user)
-		if user != "" {
-			proxy.ServeHTTP(w, r)
-			return
+		if user != nil {
+			if v, ok := user.(string); ok && v != "" {
+				proxy.ServeHTTP(w, r)
+				return
+			} else {
+				// clear
+				session.Delete("user")
+				session.Save()
+			}
 		}
 		// check basic auth first
-		user, found := basicAuthPairs.SearchCredential(r.Header.Get("Authorization"))
+		basicUser, found := basicAuthPairs.SearchCredential(r.Header.Get("Authorization"))
 		if found {
-			session.Set("user", user)
+			session.Set("user", basicUser)
 			session.Save()
 			proxy.ServeHTTP(w, r)
 			return
@@ -210,7 +217,9 @@ func ProxyAuth(cfg config.ProxyConfig) gin.HandlerFunc {
 		}
 	retry:
 		http.Redirect(w, r, loginUrl, http.StatusFound)
+		return
 	unauth:
 		c.AbortWithStatus(401)
+		return
 	}
 }
