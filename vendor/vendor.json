@@ -33,6 +33,18 @@
 			"revisionTime": "2015-09-25T10:14:45Z"
 		},
 		{
+			"checksumSHA1": "g2zSqD3W+i4vQjDwuB4J4oRYbGc=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "52fcc5dbf6e94df33ad313858fb94b713e9d1b4a",
+			"revisionTime": "2015-09-25T10:14:45Z"
+		},
+		{
+			"checksumSHA1": "/cPJSLLdEAWI/Mavbbe13RgSfP4=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "52fcc5dbf6e94df33ad313858fb94b713e9d1b4a",
+			"revisionTime": "2015-09-25T10:14:45Z"
+		},
+		{
 			"checksumSHA1": "HmbftipkadrLlCfzzVQ+iFHbl6g=",
 			"path": "github.com/golang/glog",
 			"revision": "23def4e6c14b4da8ac2ed8007337bc5eb5007998",
@@ -73,6 +85,30 @@
 			"path": "github.com/lucasuyezu/golang-cas-client/util",
 			"revision": "546569006c117b2f553f5a7ec0b4fe41f3dddc05",
 			"revisionTime": "2015-05-07T03:46:59Z"
+		},
+		{
+			"checksumSHA1": "MmQYoOadcQ5goARLjCqlSTAT03Y=",
+			"path": "github.com/manucorporat/sse",
+			"revision": "fe6ea2c8e398672518ef204bf0fbd9af858d0e15",
+			"revisionTime": "2015-07-15T18:48:05Z"
+		},
+		{
+			"checksumSHA1": "t/DQYibGKPAy79nVjMa7WVJmmeI=",
+			"path": "github.com/mattn/go-colorable",
+			"revision": "3dac7b4f76f6e17fb39b768b89e3783d16e237fe",
+			"revisionTime": "2015-11-27T01:45:55Z"
+		},
+		{
+			"checksumSHA1": "9jjO5GjLa0XF/nfWihF02RoH4qc=",
+			"path": "golang.org/x/net/context",
+			"revision": "f841c39de738b1d0df95b5a7187744f0e03d8112",
+			"revisionTime": "2016-06-30T00:53:42Z"
+		},
+		{
+			"checksumSHA1": "5NDU2YJokde30yQDaobw8oV9Yys=",
+			"path": "gopkg.in/bluesuncorp/validator.v5",
+			"revision": "d5acf1dac43705f8bfbb71d878e290e2bed3950b",
+			"revisionTime": "2015-09-24T11:44:28Z"
 		},
 		{
 			"checksumSHA1": "+OgOXBoiQ+X+C2dsAeiOHwBIEH0=",
