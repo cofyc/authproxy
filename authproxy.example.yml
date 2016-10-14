@@ -1,6 +1,6 @@
 global:
   production: true
-  cookie_secret: "UNIQUE_COOKEE_SECRET"
+  cookie_secret: "UNIQUE_COOKIE_SECRET"
   cookie_max_age: 604800
 proxies:
   - listen: '0.0.0.0:9500'

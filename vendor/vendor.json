@@ -1,6 +1,6 @@
 {
 	"comment": "",
-	"ignore": "test",
+	"ignore": "test go1.7",
 	"package": [
 		{
 			"checksumSHA1": "mXuhmsoWRrMxD3j836MtLNirGiM=",
@@ -45,12 +45,6 @@
 			"revisionTime": "2015-09-25T10:14:45Z"
 		},
 		{
-			"checksumSHA1": "HmbftipkadrLlCfzzVQ+iFHbl6g=",
-			"path": "github.com/golang/glog",
-			"revision": "23def4e6c14b4da8ac2ed8007337bc5eb5007998",
-			"revisionTime": "2016-01-25T20:49:56Z"
-		},
-		{
 			"checksumSHA1": "g/V4qrXjUGG9B+e3hB+4NAYJ5Gs=",
 			"path": "github.com/gorilla/context",
 			"revision": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42",
@@ -69,24 +63,6 @@
 			"revisionTime": "2016-08-26T13:13:12Z"
 		},
 		{
-			"checksumSHA1": "5UIsDy9TvCUFTdgOw/GjVmANsd4=",
-			"path": "github.com/lucasuyezu/golang-cas-client/client",
-			"revision": "546569006c117b2f553f5a7ec0b4fe41f3dddc05",
-			"revisionTime": "2015-05-07T03:46:59Z"
-		},
-		{
-			"checksumSHA1": "YSljOxSebsxXvw79wJqDK6Jh7cE=",
-			"path": "github.com/lucasuyezu/golang-cas-client/service",
-			"revision": "546569006c117b2f553f5a7ec0b4fe41f3dddc05",
-			"revisionTime": "2015-05-07T03:46:59Z"
-		},
-		{
-			"checksumSHA1": "zYkOiGtVtGAo4pARcXOc0lj3keY=",
-			"path": "github.com/lucasuyezu/golang-cas-client/util",
-			"revision": "546569006c117b2f553f5a7ec0b4fe41f3dddc05",
-			"revisionTime": "2015-05-07T03:46:59Z"
-		},
-		{
 			"checksumSHA1": "MmQYoOadcQ5goARLjCqlSTAT03Y=",
 			"path": "github.com/manucorporat/sse",
 			"revision": "fe6ea2c8e398672518ef204bf0fbd9af858d0e15",
@@ -99,10 +75,22 @@
 			"revisionTime": "2015-11-27T01:45:55Z"
 		},
 		{
+			"checksumSHA1": "xZuhljnmBysJPta/lMyYmJdujCg=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8",
+			"revisionTime": "2016-08-06T12:27:52Z"
+		},
+		{
 			"checksumSHA1": "9jjO5GjLa0XF/nfWihF02RoH4qc=",
 			"path": "golang.org/x/net/context",
 			"revision": "f841c39de738b1d0df95b5a7187744f0e03d8112",
 			"revisionTime": "2016-06-30T00:53:42Z"
+		},
+		{
+			"checksumSHA1": "Xz3hUrPvOYGWTuHrEryoYAj9zwg=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "9bb9f0998d48b31547d975974935ae9b48c7a03c",
+			"revisionTime": "2016-10-11T23:07:22Z"
 		},
 		{
 			"checksumSHA1": "5NDU2YJokde30yQDaobw8oV9Yys=",

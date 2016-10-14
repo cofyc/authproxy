@@ -1,6 +1,6 @@
 # auth proxy
 
-Proxy with auth addons.
+Proxy with auth addon.
 
 ## Run
 
