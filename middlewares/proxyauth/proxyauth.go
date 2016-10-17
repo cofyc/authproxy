@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/cofyc/authproxy/config"
+	"github.com/kirk-enterprise/authproxy/config"
 
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"

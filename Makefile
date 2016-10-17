@@ -1,12 +1,12 @@
 
 all:
-	go build github.com/cofyc/authproxy/cmd/authproxy
+	go build github.com/kirk-enterprise/authproxy/cmd/authproxy
 
 linux:
-	GOOS=linux GOARCH=amd64 go build github.com/cofyc/authproxy/cmd/authproxy
+	GOOS=linux GOARCH=amd64 go build github.com/kirk-enterprise/authproxy/cmd/authproxy
 
 test:
-	go test github.com/cofyc/authproxy/...
+	go test github.com/kirk-enterprise/authproxy/...
 
 style:
 	@echo ">> checking code style"

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/cofyc/authproxy/config"
-	"github.com/cofyc/authproxy/middlewares/proxyauth"
+	"github.com/kirk-enterprise/authproxy/config"
+	"github.com/kirk-enterprise/authproxy/middlewares/proxyauth"
 
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
